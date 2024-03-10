@@ -125,7 +125,7 @@ export default function Home() {
       <div id="portfolio" className={styles.portfolio}>
         <div className={styles.coverPortfolio}>
         <div className={styles.projects}>
-          <div className={styles.bigText}>
+          <div className={styles.bigText2}>
           <span className={styles.specialText}>
           Portfolio
           </span>
@@ -170,7 +170,7 @@ export default function Home() {
       </div>
 
       <div id="contact" className={styles.contact}>
-        <div className={styles.bigText}> <span className={styles.specialText}>Contact Me!</span> </div>
+        <div className={styles.bigText2}> <span className={styles.specialText}>Contact Me!</span> </div>
       < div className={styles.contactForm}>
         <form className={styles.form} onSubmit={handleSubmit}>
           <label htmlFor="Name">Name</label>

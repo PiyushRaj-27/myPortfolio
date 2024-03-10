@@ -14,7 +14,7 @@
   align-items: center;
   justify-content: center;
   background: #000;
-  z-index: 5;
+  z-index: 1;
 }
 
 .about{

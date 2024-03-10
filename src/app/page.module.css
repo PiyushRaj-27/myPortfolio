@@ -532,6 +532,81 @@
   padding: 10px;
 }
 
+.images{
+  width: 380px;
+  height: 200px;
+}
+@media (min-width: 100px) and (max-width: 1120px) {
+  .header{
+    display: none;
+  }
+  .about{
+    height: 130vh;
+  }
+  .aboutSection{
+    width: 100vw;
+  }
+  .smallText2{
+    font-size: 14px;
+  }
+  .textSubsection {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .rightSubsection{
+    width: 80%;
+  }
+
+  .portfolio{
+    height: 120vh;
+    margin-bottom: 30vh;
+  }
+  .projectBanner{
+    flex-direction: column;
+    gap: 100px;
+  }
+  .projectCard{
+    width: 300px;
+    height: 40vh;
+  }
+  .images{
+    width: 280px;
+    height: 140px;
+  }
+
+  .contact{
+    height: 150vh;
+  }
+  .contactUpper{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .Left{
+    width: 80%;
+  }
+  .right{
+    width: 80%;
+    margin-bottom: 10vh;
+  }
+  .contactlower{
+    width: 80%;
+  }
+  .smallText{
+    width: 80%;
+  }
+
+  .smallText > div{
+    width: 100%;
+    word-break: break-all;
+    white-space: normal;
+  }
+  .line{
+    width: 100px;
+    color: white;
+    animation: none;
+    display: none;
+  }
+}
 
 .area{
   background: black;  

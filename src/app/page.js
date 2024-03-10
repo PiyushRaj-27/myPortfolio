@@ -41,7 +41,7 @@ export default function Home() {
             Hey, Its <span className={styles.specialText}>Piyush Raj</span>
           </div>
           <div className={styles.smallText}>
-            <p className={styles.line}>A dedicated and results-driven web developer proficient in crafting web applications. </p>
+            <div className={styles.line}>A dedicated and results-driven web developer proficient in crafting web applications. </div>
           </div>
         </div>
       </div>
@@ -137,7 +137,7 @@ export default function Home() {
           <div className={styles.projectBanner}>
           <div className={styles.projectCard}>
             <div className={styles.projectImg}>
-            <img src="/home.png" width={380} height={200}></img>
+            <img src="/home.png" width={380} height={200} className={styles.images}></img>
             </div>
             <div className={styles.projectDetail}>
             <b>Hospital Management System</b>, built using Django, is designed to streamline and enhance the operations of healthcare facilities.
@@ -149,7 +149,7 @@ export default function Home() {
 
           <div className={styles.projectCard}>
             <div className={styles.projectImg}>
-            <img src="/blog.png" width={380} height={200}></img>
+            <img src="/blog.png" width={380} height={200} className={styles.images}></img>
             </div>
             <div className={styles.projectDetail}>
             <b>Blog Application</b>, built using Django, Lets you share your thoughts on the internet.

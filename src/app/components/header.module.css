@@ -36,3 +36,9 @@
     transform: scaleX(1); /* Scale the underline on hover */
     transform-origin: bottom left; /* Set transform origin */
   }
+
+  @media (min-width: 100px) and (max-width: 1120px) {
+    .header{
+      display: none;
+    }
+}

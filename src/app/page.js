@@ -98,16 +98,16 @@ export default function Home() {
                   <div className={styles.skills}>
                     Express
                   </div>
-                  <div className={styles.skills}>
-                    Git
-                  </div>
+                  
                 </div>
 
                 <div className={styles.row}>
                   <div className={styles.skills}>
                     Bootstrap
                   </div>
-
+                  <div className={styles.skills}>
+                    Git
+                  </div>
                   <div className={styles.skills}>
                     Github
                   </div>

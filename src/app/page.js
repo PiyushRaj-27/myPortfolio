@@ -38,7 +38,7 @@ export default function Home() {
       <div id="home" className={styles.home}>
         <div className={styles.intro}>
           <div className={styles.bigText}>
-            Hey, I'm <span className={styles.specialText}>Piyush Raj</span>
+            Hey, Its <span className={styles.specialText}>Piyush Raj</span>
           </div>
           <div className={styles.smallText}>
             <p className={styles.line}>A dedicated and results-driven web developer proficient in crafting web applications. </p>
@@ -68,7 +68,7 @@ export default function Home() {
                 technical expertise and creative problem-solving to every
                 project. My goal is to not only meet but exceed expectations,
                 ensuring a seamless and engaging user experience.
-                Let's collaborate to bring your digital endeavors to fruition!
+                Lets collaborate to bring your digital endeavors to fruition!
               </div>
             </div>
             <div className={styles.rightSubsection}>

@@ -3,10 +3,15 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Script from "next/script";
-import { FaLinkedin } from "react-icons/fa";
+import { FaCss3, FaHtml5, FaJava, FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { MdEmail } from "react-icons/md";
+import { IoLogoJavascript } from "react-icons/io";
+import {TbBrandAndroid, TbBrandBootstrap, TbBrandCpp, TbBrandDjango, TbBrandGit, TbBrandGithub, TbBrandNextjs, TbBrandNodejs, TbBrandOpenai, TbBrandPython, TbBrandTailwind, TbBrandVscode} from "react-icons/tb"
+import { SiAndroidstudio, SiPostman } from "react-icons/si";
+
+
 export default function Home() {
   let scriptURL = "https://script.google.com/macros/s/AKfycbywHCD8dWmty9Z7p4XQC3rYexxKFo7Mv4vztW_wEP30uvGPEpuXqEkVG_TlMQKowZWqJA/exec"
   let handleSubmit=  async function (e){
@@ -78,41 +83,63 @@ export default function Home() {
               <div className={styles.skillsSection}>
                 <div className={styles.row}>
                   <div className={styles.skills}>
-                    HTML
+                    <FaHtml5></FaHtml5>
                   </div>
                   <div className={styles.skills}>
-                    CSS
+                    <FaCss3></FaCss3>
                   </div>
                   <div className={styles.skills}>
-                    Javascript
+                    <IoLogoJavascript />
+                  </div>
+                  <div className={styles.skills}>
+                    <SiPostman></SiPostman>
                   </div>
                 </div>
 
                 <div className={styles.row}>
                   <div className={styles.skills}>
-                    NextJs
+                    <TbBrandNextjs></TbBrandNextjs>
                   </div>
                   <div className={styles.skills}>
-                    Django
+                    <TbBrandDjango></TbBrandDjango>
                   </div>
                   <div className={styles.skills}>
-                    Express
+                    <TbBrandNodejs />
                   </div>
+                  <div className={styles.skills}>
+                    <TbBrandBootstrap />
+                  </div>
+                </div>
+
+                <div className={styles.row}>
+                  <div className={styles.skills}>
+                    <TbBrandPython />
+                  </div>
+                  <div className={styles.skills}>
+                    <TbBrandCpp />
+                  </div>
+                  <div className={styles.skills}>
+                    <FaJava />
+                  </div>
+                </div>
+                
+                <div className={styles.row}>
                   
+                  <div className={styles.skills}>
+                    <TbBrandGit />
+                  </div>
+                  <div className={styles.skills}>
+                    <TbBrandGithub />
+                  </div>
+                  <div className={styles.skills}>
+                    <TbBrandVscode />
+                  </div>
+                  <div className={styles.skills}>
+                    <SiAndroidstudio />
+                  </div>
                 </div>
 
-                <div className={styles.row}>
-                  <div className={styles.skills}>
-                    Bootstrap
-                  </div>
-                  <div className={styles.skills}>
-                    Git
-                  </div>
-                  <div className={styles.skills}>
-                    Github
-                  </div>
-                </div>
-
+                
 
               </div>
             </div>

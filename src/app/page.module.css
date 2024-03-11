@@ -105,7 +105,7 @@
   display: flex;
   width: 100%;
   flex-direction: column;
-  gap: 10px;
+  gap: 5px;
   align-items: center;
 
 }
@@ -116,8 +116,14 @@
   font-weight: bolder;
   padding: 5px;
   width: fit-content;
-  border-radius: 2px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
   transition: 0.5s ease-in-out;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .skills:hover{
@@ -129,7 +135,7 @@
   align-items: center;
   justify-content: space-evenly;
   width: 100%;
-  padding: 20px;
+  padding: 10px;
 }
 
 
